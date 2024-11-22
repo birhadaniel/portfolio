@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ab9e8162f9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="turn">Portifolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#" class="hom">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark" id="closebtn">X</i> -->
+                </ul>
+                <div id="menuicon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="home">
+        <div class="container">
+            <div class="header-text">
+                <div class="person">
+                    <p>UI/UX Designer</p>
+                    <h1>HI,I'm <span>Daniel </span><br>Birhanu From Ethiopia</h1>
+                </div>
+                <div class="person-img">
+                    <img src="image/daniboy-removebg-preview.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...........about........... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/daniboy-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Rem alias, cumque fuga deleniti ratione, architecto dolorem,
+                      rerum qui enim commodi saepe sit perspiciatis odio placeat 
+                      fugit beatae consequuntur ipsam doloribus.Mauris elleife manante convallis mattis.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021- Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StearApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Execution at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...........services................ -->
+    <div id="secrvices">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                         quibusdam fugiat neque! Quae dolore suscipit harum doloremque </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                      quibusdam fugiat neque! Quae dolore suscipit harum doloremque </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                         quibusdam fugiat neque! Quae dolore suscipit harum doloremque </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-share-from-square"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                      quibusdam fugiat neque! Quae dolore suscipit harum doloremque </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- ..............portifolio............... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/images (1).jpg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/images.jpg" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/trabajo-por-proyectos3.jpg" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/download.jpg" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+
+      <!-- ............contact........... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> danielbirhanu0374@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +251903745354</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/my-cv.png" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright" ></i> Dani. Made with <i class="fa-solid fa-heart" id="ic"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+ 
+</body>
+</html>
